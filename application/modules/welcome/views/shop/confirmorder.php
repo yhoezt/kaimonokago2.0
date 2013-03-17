@@ -6,7 +6,7 @@
 
 <?php
 $data = $this->lang->line('orders_go_to_cart');
-echo anchor("/cart", $data);
+echo anchor($module.'/cart', $data);
 ?>.</p>
 <?php 
 if($this->data['customer_status']==0)
